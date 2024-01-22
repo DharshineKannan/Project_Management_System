@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            padding: 20px 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width:500px;
+            width: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form action="login.php" method="post">
+        <h3>LOGIN</h3>
+        <label for="un">Username</label>
+        <input type="text" id="un" name="un" required>
+        <br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd" required>
+        <br>
+        <button type="submit">Login</button>
+        <h3> Click here to <a href="register.html"> Register </a></h3>
+    </form>
+</body>
+
+</html>

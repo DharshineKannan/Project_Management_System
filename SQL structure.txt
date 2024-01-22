@@ -1,0 +1,22 @@
+Table structure for table `apms`
+--
+
+CREATE TABLE `apms` (
+  `id` int(11) NOT NULL,
+  `np` varchar(255) NOT NULL,
+  `tl` varchar(255) NOT NULL,
+  `pc` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+
+---------------------------------------------------------------------------
+
+Table structure for table `upms`
+--
+
+CREATE TABLE `upms` (
+  `id` int(11) NOT NULL,
+  `un` varchar(30) NOT NULL,
+  `pwd` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
